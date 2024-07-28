@@ -1,0 +1,6 @@
+if __name__ == '__main__':
+    n = int(input())
+    scores = list(map(int, input().split()))
+    sorted_scores = sorted(list(set(scores)))
+    runner_up_score = sorted_scores[-2]
+    print(runner_up_score)
