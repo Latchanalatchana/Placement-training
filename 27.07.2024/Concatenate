@@ -1,0 +1,4 @@
+List_1=[23,34,56]
+List_2=[45,66,77]
+concatenation_list=List_1+List_2
+print (concatenation_ list)
