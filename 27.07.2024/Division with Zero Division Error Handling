@@ -1,0 +1,9 @@
+def divide_numbers(num1,num2):
+    try: 
+       result=num1/num
+       return result
+    except ZeroDivisionError:
+       return:"Error: cannot divide by zero"
+print( divide_numbers(10, 2))
+print( divide_numbers(10, 0))
+        
