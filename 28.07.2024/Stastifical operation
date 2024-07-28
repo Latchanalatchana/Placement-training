@@ -1,0 +1,6 @@
+import numpy as np
+array=np.array([1,2,3,4])
+mean_ value=np.mean(array)
+print("Mean_value:"mean_value)
+std_deviation=np.std(array)
+print("Standard deviation:"std_deviation)
