@@ -1,0 +1,5 @@
+from itertools import groupby
+input_string=input().strip()
+groups=[(len(list(group)),key)for key,group in groupby(input_string)]
+result=''.join(f'({count},{char}'for count,char in groups)
+print(result)
