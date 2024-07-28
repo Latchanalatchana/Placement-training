@@ -1,0 +1,3 @@
+Delete from a dictionary of elementmy_dictionary= {31: 'a',21: 'b',14: 'c'}
+del my_dict[31]
+print(my_dictionary)
