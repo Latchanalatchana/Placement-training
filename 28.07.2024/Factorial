@@ -1,0 +1,23 @@
+try:
+    a=int(input())
+    if a<0:
+        print("Invalid ")
+    elif a==0 or a==1:
+        print("The factorial of the number is 1")
+    else:
+        res=1
+        for i in range(2,a+1) :
+            res*=i
+        print(res)
+except ValueError:
+    print("Invalid input ")
+def fac(n):
+    if n==0 or n==1:
+        return 1
+    else:
+        return n*fac(n-1)
+n=int(input())
+if n<0:
+    print("Invalid input ")
+else:
+    print(f"factorial of {n} is ",fac(n))
