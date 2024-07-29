@@ -1,0 +1,6 @@
+def diagonal_difference(arr):
+    primary_diagonal = sum(arr[i][i] for i in range(len(arr)))
+    secondary_diagonal = sum(arr[i][len -1 -i] for i in range(len(arr)))
+    return absolute(primary_diagonal + secondary_diagonal)
+arr=[[1,2,3],[4,5,6],[7,8,9]]
+print(diagonal_difference(arr))
